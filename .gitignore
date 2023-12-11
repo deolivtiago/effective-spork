@@ -35,3 +35,6 @@ accountantiny-*.tar
 npm-debug.log
 /assets/node_modules/
 
+# Ignore editor files
+/.vscode/
+/.elixir_ls/
