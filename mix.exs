@@ -51,7 +51,10 @@ defmodule Accountantiny.MixProject do
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.1.1"},
       {:plug_cowboy, "~> 2.5"},
-      {:credo, "~> 1.7", only: [:dev, :test], runtime: false}
+      {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
+      {:tzdata, "~> 1.1"},
+      {:argon2_elixir, "~> 4.0"},
+      {:faker, "~> 0.17", only: [:dev, :test], runtime: false}
     ]
   end
 
